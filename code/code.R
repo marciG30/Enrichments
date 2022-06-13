@@ -69,4 +69,3 @@ data_merged =
 #
 # export the merged file --------------------------------------------------
 data_merged %>% write.csv("processed_data/combined_brachy_sequences.csv", row.names = FALSE, na = "")
-
